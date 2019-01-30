@@ -1,0 +1,32 @@
+{
+  "name": "rn-beautiful-ui",
+  "version": "0.0.1",
+  "description": "A UI components for react native",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThielNS/rn-beautiful-ui.git"
+  },
+  "keywords": [
+    "UI",
+    "React",
+    "Native",
+    "Beautiful",
+    "UI",
+    "React"
+  ],
+  "author": "Thiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThielNS/rn-beautiful-ui/issues"
+  },
+  "homepage": "https://github.com/ThielNS/rn-beautiful-ui#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-native": "^0.58.3",
+    "react-native-vector-icons": "^6.2.0"
+  }
+}
