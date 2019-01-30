@@ -12,11 +12,9 @@
   },
   "keywords": [
     "UI",
-    "React",
-    "Native",
-    "Beautiful",
-    "UI",
-    "React"
+    "react-native",
+    "beautiful-ui",
+    "react"
   ],
   "author": "Thiel",
   "license": "MIT",
@@ -25,8 +23,14 @@
   },
   "homepage": "https://github.com/ThielNS/rn-beautiful-ui#readme",
   "dependencies": {
-    "react": "^16.7.0",
-    "react-native": "^0.58.3",
     "react-native-vector-icons": "^6.2.0"
+  },
+  "devDependencies": {
+    "react": "^16.7.0",
+    "react-native": "^0.58.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.7.0",
+    "react-native": ">=0.58.3"
   }
 }

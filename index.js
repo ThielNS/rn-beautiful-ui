@@ -1,3 +1,3 @@
-import Button from './src/basics/Button';
+const Button = require('./src/basics/Button');
 
-module.exports = Button;
+module.exports = { Button };
