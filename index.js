@@ -1,3 +1,7 @@
-const Button = require('./src/basics/Button');
+import Button from './src/basics/Button';
+import Text from './src/basics/Text';
 
-module.exports = { Button };
+module.exports = {
+  Button,
+  Text,
+};
