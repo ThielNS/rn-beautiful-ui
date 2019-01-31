@@ -1,10 +1,10 @@
 export const TEXT_TYPES = {
-	TITLE: 'TITLE',
-	SUBHEADER: 'SUBHEADER',
-	QUOTE: 'QUOTE',
-	LARGE_BODY: 'LARGE_BODY',
-	BODY: 'BODY',
-	SECONDARY_BODY: 'SECONDARY_BODY',
-	PLACEHOLDER: 'PLACEHOLDER',
-	BUTTON: 'BUTTON',
+	TITLE: 'title',
+	SUBHEADER: 'subheader',
+	QUOTE: 'quote',
+	LARGE_BODY: 'largeBody',
+	BODY: 'body',
+	SECONDARY_BODY: 'secondaryBody',
+	PLACEHOLDER: 'placeholder',
+	BUTTON: 'button',
 };
