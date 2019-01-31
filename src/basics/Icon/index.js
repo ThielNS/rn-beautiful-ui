@@ -27,7 +27,6 @@ const Icon = ({
 
 Icon.propTypes = {
 	name: PropTypes.string.isRequired,
-	prefix: PropTypes.string.isRequired,
 	color: PropTypes.string,
 	size: PropTypes.number,
 	circle: PropTypes.bool,
