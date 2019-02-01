@@ -6,6 +6,8 @@ import SectionList from './src/basics/SectionList';
 import Avatar from './src/basics/Avatar';
 import Row from './src/basics/Row';
 import Header from './src/basics/Header';
+import LoadingComponent from './src/basics/LoadingComponent';
+import View from './src/basics/View';
 
 module.exports = {
   Button,
@@ -15,5 +17,7 @@ module.exports = {
 	SectionList,
 	Avatar,
 	Row,
-	Header,
+  Header,
+  LoadingComponent,
+  View,
 };
