@@ -1,8 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { View } from 'react-native';
+import { View as RNView } from 'react-native';
 
-const LoadingComponent = ({
+const View = ({
 	padder, padderHorizontal, padderVertical, style, children, ...restProps
 }) => {
 	const padderStyle = padder ? { padding: padder }
@@ -10,16 +10,16 @@ const LoadingComponent = ({
 			: padderVertical ? { paddingVertical: padderVertical }
 				: {};
 	return (
-		<View
+		<RNView
 			style={[padderStyle, style]}
 			{...restProps}
 		>
 			{children}
-		</View>
+		</RNView>
 	);
 };
 
-LoadingComponent.propTypes = {
+View.propTypes = {
 	padder: PropTypes.number,
 	padderVertical: PropTypes.number,
 	padderHorizontal: PropTypes.number,
@@ -31,8 +31,8 @@ LoadingComponent.propTypes = {
 	children: PropTypes.node,
 };
 
-LoadingComponent.defaultProps = {
+View.defaultProps = {
 	children: null,
 };
 
-export default LoadingComponent;
+export default View;
